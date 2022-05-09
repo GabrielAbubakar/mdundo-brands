@@ -1,0 +1,18 @@
+/* global styles */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font load */
+@font-face {
+    font-family: "Azo Sans";
+    src: url("https://yoursite.com/css/fonts/CustomFont.eot");
+}
+
+body {
+    font-family: 'Azo sans';
+}
