@@ -16,3 +16,54 @@
 body {
     font-family: 'Azo sans';
 }
+
+
+
+/* Section: Home */
+.home {
+    background-color: #F8F8F8;
+    padding: 1rem 0 7rem 0;
+}
+
+.home__container {
+    margin-left: 7rem;
+    display: flex;
+}
+
+.home__text-content {
+    align-self: center;
+}
+
+.home__text-content h1 {
+    font-weight: 700;
+    font-size: 2.0625rem;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.home__text-content p {
+    font-size: 1.125rem;
+    color: #696871;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+.home__text-content a {
+    display: inline-block;
+    background-color: #FF8C00;
+    color: #FFFFFF;
+    font-size: 1.0625rem;
+    text-transform: uppercase;
+    border-radius: .6rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem 3rem;
+}
+
+.home__img-container {
+    margin-top: -2rem;
+}
+
+.home__img-container img {}
