@@ -11,6 +11,7 @@ import Logo2 from '../src/assets/images/Logo2.svg';
 import Logo3 from '../src/assets/images/Logo3.svg';
 import Logo4 from '../src/assets/images/Logo4.svg';
 import Logo5 from '../src/assets/images/Logo5.svg';
+import ReviewCard from './components/reviewCard/ReviewCard';
 
 
 const App = () => {
@@ -114,63 +115,18 @@ const App = () => {
 
                     <h2>what people say about us</h2>
                     <div className="clients__bottom">
-                        <div className="clients__testimonials">
-                            <div className="clients__testimonials-logo">
 
-                            </div>
-                            <div className="clients__testimonials-review">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.
-                                </p>
-                            </div>
-                            <div className="clients__testimonials-reviewer">
-                                <div className="reviewer__img">
+                        <ReviewCard author="MIchael James"
+                            position="CEO, Panther"
+                            review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan." />
 
-                                </div>
-                                <div className="reviewer__title">
-                                    <h4>Michael James</h4>
-                                    <p>CEO, Panther</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="clients__testimonials">
-                            <div className="clients__testimonials-logo">
+                        <ReviewCard author="MIchael James"
+                            position="CEO, Panther"
+                            review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan." />
 
-                            </div>
-                            <div className="clients__testimonials-review">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.
-                                </p>
-                            </div>
-                            <div className="clients__testimonials-reviewer">
-                                <div className="reviewer__img">
-
-                                </div>
-                                <div className="reviewer__title">
-                                    <h4>Michael James</h4>
-                                    <p>CEO, Panther</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="clients__testimonials">
-                            <div className="clients__testimonials-logo">
-
-                            </div>
-                            <div className="clients__testimonials-review">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.
-                                </p>
-                            </div>
-                            <div className="clients__testimonials-reviewer">
-                                <div className="reviewer__img">
-
-                                </div>
-                                <div className="reviewer__title">
-                                    <h4>Michael James</h4>
-                                    <p>CEO, Panther</p>
-                                </div>
-                            </div>
-                        </div>
+                        <ReviewCard author="MIchael James"
+                            position="CEO, Panther"
+                            review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan." />
                     </div>
                 </div>
             </section>

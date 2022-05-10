@@ -1,0 +1,40 @@
+.clients__testimonials {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 2rem 3rem 4rem 2rem;
+}
+
+.clients__testimonials-logo {
+    width: 40px;
+    height: 40px;
+    background-color: #C4C4C4;
+    margin-bottom: 1.7rem;
+}
+
+.clients__testimonials-review {
+    margin-bottom: 1.5rem;
+}
+
+.clients__testimonials-reviewer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.reviewer__img {
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+
+.reviewer__title {}
+
+.reviewer__title h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.reviewer__title p {
+    font-size: 0.8125rem;
+}
