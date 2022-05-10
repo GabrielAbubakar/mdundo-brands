@@ -1,10 +1,12 @@
 import React from 'react'
-import Navigation from './components/navBar/Navigation';
 import '../src/styles/App.css'
+import Navigation from './components/navBar/Navigation';
+import GrowthCard from './components/growthCard/GrowthCard';
 import BrandLift from '../src/assets/images/BrandLift-Desktop.png'
 import YoutubePlayer from '../src/assets/images/YoutubePlayer.png'
 import AudioAdPhone from '../src/assets/images/AudioAdPhone.png'
-import GrowthCard from './components/growthCard/GrowthCard';
+import Map from '../src/assets/images/map.png'
+
 
 const App = () => {
     return (
@@ -63,6 +65,24 @@ const App = () => {
                             title="Trust Influencer Marketing"
                             details="Audio Ad Campaigns are delivered in parallel with music from top musicians creating a trusting and personal message influencing real customer decisions." />
 
+                    </div>
+                </div>
+            </section>
+
+            <section className="contact">
+                <div className="contact__container">
+                    <div className="contact__content">
+                        <h2>We have a young, highly engaged audience!</h2>
+                        <p>
+                            Get in touch with us to capture the attention of your target audience with maximum impact, Today!
+                        </p>
+                        <div className="contact__buttons">
+                            <a href="#touch">Get in Touch</a>
+                            <a href="#numbers">View Q4 numers here</a>
+                        </div>
+                    </div>
+                    <div className="contact__img-box">
+                        <img src={Map} alt="map" />
                     </div>
                 </div>
             </section>
