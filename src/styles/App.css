@@ -290,3 +290,50 @@ body {
 .clients__bottom>* {
     flex: .26;
 }
+
+/* Section: Footer */
+.footer {
+    background-color: #232323;
+    padding: 7rem 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1.0625rem;
+    color: #ffffff80;
+    margin-bottom: 2rem;
+}
+
+.footer__navigation {
+    margin-bottom: 2rem;
+}
+
+.footer__navigation ul {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.footer__navigation li {
+    list-style-type: none;
+}
+
+.footer__navigation a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__socials {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.footer__socials>* {
+    cursor: pointer;
+}
+
+.copyright {
+    font-size: 0.9375rem;
+}

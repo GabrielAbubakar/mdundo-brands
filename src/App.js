@@ -2,6 +2,7 @@ import React from 'react'
 import '../src/styles/App.css'
 import Navigation from './components/navBar/Navigation';
 import GrowthCard from './components/growthCard/GrowthCard';
+import ReviewCard from './components/reviewCard/ReviewCard';
 import BrandLift from '../src/assets/images/BrandLift-Desktop.png'
 import YoutubePlayer from '../src/assets/images/YoutubePlayer.png'
 import AudioAdPhone from '../src/assets/images/AudioAdPhone.png'
@@ -11,7 +12,9 @@ import Logo2 from '../src/assets/images/Logo2.svg';
 import Logo3 from '../src/assets/images/Logo3.svg';
 import Logo4 from '../src/assets/images/Logo4.svg';
 import Logo5 from '../src/assets/images/Logo5.svg';
-import ReviewCard from './components/reviewCard/ReviewCard';
+import InstagramLogo from '../src/assets/images/instagramLogo.svg';
+import FacebookLogo from '../src/assets/images/facebookLogo.svg';
+import TwitterLogo from '../src/assets/images/twitterLogo.svg';
 
 
 const App = () => {
@@ -130,6 +133,31 @@ const App = () => {
                     </div>
                 </div>
             </section>
+
+            <footer className="footer">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor incididunt.
+                </p>
+                <div className="footer__navigation">
+                    <ul>
+                        <li><a href="#camp">Campaigns</a></li>
+                        <li><a href="#email">Email Marketing</a></li>
+                        <li><a href="#brand">Branding</a></li>
+                        <li><a href="#offline">Offline</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#FAQ">FAQs</a></li>
+                    </ul>
+                </div>
+                <div className="footer__socials">
+                    <img src={FacebookLogo} alt="facebook" />
+                    <img src={TwitterLogo} alt="twitter" />
+                    <img src={InstagramLogo} alt="instagram" />
+                </div>
+                <div className="copyright">
+                    <p>Copyright © 2020. LogoIpsum. All rights reserved.</p>
+                </div>
+
+            </footer>
         </div>
     )
 }
