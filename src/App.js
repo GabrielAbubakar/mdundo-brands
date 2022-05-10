@@ -4,6 +4,7 @@ import '../src/styles/App.css'
 import BrandLift from '../src/assets/images/BrandLift-Desktop.png'
 import YoutubePlayer from '../src/assets/images/YoutubePlayer.png'
 import AudioAdPhone from '../src/assets/images/AudioAdPhone.png'
+import GrowthCard from './components/growthCard/GrowthCard';
 
 const App = () => {
     return (
@@ -50,27 +51,18 @@ const App = () => {
                     </div>
 
                     <div className="features__bottom">
-                        <div className="features__bottom-box">
-                            <h3>38%</h3>
-                            <h4>Average Brand Lift Increase</h4>
-                            <p>
-                                Audio Ad Campaigns increase our clients’ brand lift score by an average 49% relative to their competition influencing real customer decisions.
-                            </p>
-                        </div>
-                        <div className="features__bottom-box">
-                            <h3>40%</h3>
-                            <h4>Use Ad-Blockers</h4>
-                            <p>
-                                Audio Ad Campaigns cannot be blocked by ad-blocker currently used by average of 40% of African’s below the age of 34 influencing real customer decisions.
-                            </p>
-                        </div>
-                        <div className="features__bottom-box">
-                            <h3>53%</h3>
-                            <h4>Trust Influencer Marketing</h4>
-                            <p>
-                                Audio Ad Campaigns are delivered in parallel with music from top musicians creating a trusting and personal message influencing real customer decisions.
-                            </p>
-                        </div>
+                        <GrowthCard percent="38%"
+                            title="Average Brand Lift Increase"
+                            details="Audio Ad Campaigns increase our clients’ brand lift score by an average 49% relative to their competition influencing real customer decisions." />
+
+                        <GrowthCard percent="40%"
+                            title="Use Ad-Blockers"
+                            details="Audio Ad Campaigns cannot be blocked by ad-blocker currently used by average of 40% of African’s below the age of 34 influencing real customer decisions." />
+
+                        <GrowthCard percent="53%"
+                            title="Trust Influencer Marketing"
+                            details="Audio Ad Campaigns are delivered in parallel with music from top musicians creating a trusting and personal message influencing real customer decisions." />
+
                     </div>
                 </div>
             </section>
