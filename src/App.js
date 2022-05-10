@@ -6,6 +6,11 @@ import BrandLift from '../src/assets/images/BrandLift-Desktop.png'
 import YoutubePlayer from '../src/assets/images/YoutubePlayer.png'
 import AudioAdPhone from '../src/assets/images/AudioAdPhone.png'
 import Map from '../src/assets/images/map.png'
+import Logo1 from '../src/assets/images/Logo1.svg';
+import Logo2 from '../src/assets/images/Logo2.svg';
+import Logo3 from '../src/assets/images/Logo3.svg';
+import Logo4 from '../src/assets/images/Logo4.svg';
+import Logo5 from '../src/assets/images/Logo5.svg';
 
 
 const App = () => {
@@ -83,6 +88,89 @@ const App = () => {
                     </div>
                     <div className="contact__img-box">
                         <img src={Map} alt="map" />
+                    </div>
+                </div>
+            </section>
+
+            <section className="clients">
+                <div className="clients__container">
+                    <h2>Our strong global partners</h2>
+                    <div className="clients__top">
+                        <div className="clients__logos-top">
+                            <img src={Logo1} alt="first client" />
+                            <img src={Logo2} alt="first client" />
+                            <img src={Logo3} alt="first client" />
+                            <img src={Logo4} alt="first client" />
+                            <img src={Logo5} alt="first client" />
+                        </div>
+                        <div className="clients__logos-bottom">
+                            <img src={Logo1} alt="first client" />
+                            <img src={Logo2} alt="first client" />
+                            <img src={Logo3} alt="first client" />
+                            <img src={Logo4} alt="first client" />
+                            <img src={Logo5} alt="first client" />
+                        </div>
+                    </div>
+
+                    <h2>what people say about us</h2>
+                    <div className="clients__bottom">
+                        <div className="clients__testimonials">
+                            <div className="clients__testimonials-logo">
+
+                            </div>
+                            <div className="clients__testimonials-review">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.
+                                </p>
+                            </div>
+                            <div className="clients__testimonials-reviewer">
+                                <div className="reviewer__img">
+
+                                </div>
+                                <div className="reviewer__title">
+                                    <h4>Michael James</h4>
+                                    <p>CEO, Panther</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="clients__testimonials">
+                            <div className="clients__testimonials-logo">
+
+                            </div>
+                            <div className="clients__testimonials-review">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.
+                                </p>
+                            </div>
+                            <div className="clients__testimonials-reviewer">
+                                <div className="reviewer__img">
+
+                                </div>
+                                <div className="reviewer__title">
+                                    <h4>Michael James</h4>
+                                    <p>CEO, Panther</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="clients__testimonials">
+                            <div className="clients__testimonials-logo">
+
+                            </div>
+                            <div className="clients__testimonials-review">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.
+                                </p>
+                            </div>
+                            <div className="clients__testimonials-reviewer">
+                                <div className="reviewer__img">
+
+                                </div>
+                                <div className="reviewer__title">
+                                    <h4>Michael James</h4>
+                                    <p>CEO, Panther</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
