@@ -32,6 +32,9 @@
     padding-bottom: .7rem;
     font-weight: 700;
     font-size: 0.9375rem;
+    transition: all .2s ease;
+    backface-visibility: hidden;
+    border-bottom: 2px solid transparent;
 }
 
 .navigation__links a:hover {
@@ -51,4 +54,10 @@
     font-weight: 700;
     text-decoration: none;
     padding: 1rem 3rem;
+    transition: all .2s ease;
+
+}
+
+.navigation__button:hover {
+    transform: translateY(-1px);
 }
