@@ -25,6 +25,7 @@
 }
 
 .navigation__links a {
+    font-family: 'Azo Sans Bd', 'Open Sans', sans-serif;
     color: #696871;
     text-transform: uppercase;
     text-decoration: none;
@@ -39,6 +40,7 @@
 }
 
 .navigation__button {
+    font-family: 'Azo Sans Bd', 'Open Sans', sans-serif;
     align-self: stretch;
     background-color: #FF8C00;
     border: none;
