@@ -11,12 +11,67 @@
 
 /* font load */
 @font-face {
-    font-family: "Azo Sans";
-    src: url("https://yoursite.com/css/fonts/CustomFont.eot");
+    font-family: 'Azo Sans';
+    src: url('../assets/font/AzoSans-Regular.eot');
+    src: local('Azo Sans Regular'), local('AzoSans-Regular'),
+        url('../assets/font/AzoSans-Regular.eot') format('embedded-opentype'),
+        url('../assets/font/AzoSans-Regular.woff2') format('woff2'),
+        url('../assets/font/AzoSans-Regular.woff') format('woff'),
+        url('../assets/font/AzoSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'Azo Sans Bk';
+    src: url('../assets/font/AzoSans-Black.eot');
+    src: local('Azo Sans Black'), local('AzoSans-Black'),
+        url('../assets/font/AzoSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('../assets/font/AzoSans-Black.woff2') format('woff2'),
+        url('../assets/font/AzoSans-Black.woff') format('woff'),
+        url('../assets/font/AzoSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Azo Sans Md';
+    src: url('../assets/font/AzoSans-Medium.eot');
+    src: local('Azo Sans Medium'), local('AzoSans-Medium'),
+        url('../assets/font/AzoSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assets/font/AzoSans-Medium.woff2') format('woff2'),
+        url('../assets/font/AzoSans-Medium.woff') format('woff'),
+        url('../assets/font/AzoSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Azo Sans Bd';
+    src: url('../assets/font/AzoSans-Bold.eot');
+    src: local('Azo Sans Bold'), local('AzoSans-Bold'),
+        url('../assets/font/AzoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/font/AzoSans-Bold.woff2') format('woff2'),
+        url('../assets/font/AzoSans-Bold.woff') format('woff'),
+        url('../assets/font/AzoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Azo Sans', 'Open Sans', sans-serif;
 }
 
 
@@ -37,6 +92,7 @@ body {
 }
 
 .home__text-content h1 {
+    font-family: 'Azo Sans Bd', sans-serif;
     font-weight: 700;
     font-size: 2.0625rem;
     line-height: 45px;
@@ -53,6 +109,7 @@ body {
 }
 
 .home__text-content a {
+    font-family: 'Azo Sans Bd', sans-serif;
     display: inline-block;
     background-color: #FF8C00;
     color: #FFFFFF;
@@ -97,6 +154,7 @@ body {
 }
 
 .features__top-content h2 {
+    font-family: 'Azo Sans Md', sans-serif;
     font-weight: 500;
     font-size: 1.875rem;
     color: #434343;
@@ -107,6 +165,7 @@ body {
 }
 
 .features__top-content a {
+    font-family: 'Azo Sans', 'Open Sans', sans-serif;
     color: #FF8C00;
     text-transform: uppercase;
     font-weight: 700;
@@ -132,6 +191,7 @@ body {
 }
 
 .features__mid-content h2 {
+    font-family: 'Azo Sans Bd', 'Open Sans', sans-serif;
     color: #333333;
     text-transform: uppercase;
     font-size: 2.0625rem;
@@ -154,6 +214,7 @@ body {
 }
 
 .features__mid-content a {
+    font-family: 'Azo Sans Bd', 'Open Sans', sans-serif;
     display: inline-block;
     background-color: #FF8C00;
     color: #FFFFFF;
@@ -198,6 +259,7 @@ body {
 }
 
 .contact__content h2 {
+    font-family: 'Azo Sans Bd', 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 2.0625rem;
     font-weight: 700;
@@ -213,6 +275,7 @@ body {
 }
 
 .contact__content a {
+    font-family: 'Azo Sans Bd', 'Open Sans', sans-serif;
     display: inline-block;
     font-size: 1.0625rem;
     text-transform: uppercase;
@@ -251,6 +314,7 @@ body {
 }
 
 .clients__container h2 {
+    font-family: 'Azo Sans Bd', 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 2.0625rem;
     font-weight: 700;
