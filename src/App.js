@@ -1,12 +1,12 @@
-import React from 'react'
-import '../src/styles/App.css'
+import React from 'react';
+import '../src/styles/App.css';
 import Navigation from './components/navBar/Navigation';
 import GrowthCard from './components/growthCard/GrowthCard';
 import ReviewCard from './components/reviewCard/ReviewCard';
-import BrandLift from '../src/assets/images/BrandLift-Desktop.png'
-import YoutubePlayer from '../src/assets/images/YoutubePlayer.png'
-import AudioAdPhone from '../src/assets/images/AudioAdPhone.png'
-import Map from '../src/assets/images/map.png'
+import BrandLift from '../src/assets/images/BrandLift-Desktop.png';
+import YoutubePlayer from '../src/assets/images/YoutubePlayer.png';
+import AudioAdPhone from '../src/assets/images/AudioAdPhone.png';
+import Map from '../src/assets/images/map.svg';
 import Logo1 from '../src/assets/images/Logo1.svg';
 import Logo2 from '../src/assets/images/Logo2.svg';
 import Logo3 from '../src/assets/images/Logo3.svg';
@@ -22,7 +22,7 @@ const App = () => {
         <div className='container'>
             <Navigation />
 
-            <section className="home">
+            <section id='home' className="home">
                 <div className="home__container">
                     <div className="home__text-content">
                         <h1>Get Started With Mdundo Brandlift Tool Today</h1>
@@ -36,7 +36,7 @@ const App = () => {
                 </div>
             </section>
 
-            <section className="features">
+            <section id='features' className="features">
                 <div className="features__container">
                     <div className="features__top">
                         <div className="features__video-box">
@@ -96,7 +96,7 @@ const App = () => {
                 </div>
             </section>
 
-            <section className="clients">
+            <section id='clients' className="clients">
                 <div className="clients__container">
                     <h2>Our strong global partners</h2>
                     <div className="clients__top">
@@ -119,15 +119,15 @@ const App = () => {
                     <h2>what people say about us</h2>
                     <div className="clients__bottom">
 
-                        <ReviewCard author="MIchael James"
+                        <ReviewCard author="Michael James"
                             position="CEO, Panther"
                             review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan." />
 
-                        <ReviewCard author="MIchael James"
+                        <ReviewCard author="Michael James"
                             position="CEO, Panther"
                             review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan." />
 
-                        <ReviewCard author="MIchael James"
+                        <ReviewCard author="Michael James"
                             position="CEO, Panther"
                             review="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan." />
                     </div>
