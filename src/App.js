@@ -31,7 +31,7 @@ const App = () => {
                     </div>
 
                     <div className="home__img-container">
-                        <img src={BrandLift} alt="bradlift desktop " />
+                        <img src={BrandLift} alt="bradlift desktop " width={818} height={562} />
                     </div>
                 </div>
             </section>
