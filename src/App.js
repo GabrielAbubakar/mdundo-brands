@@ -15,6 +15,8 @@ import Logo5 from '../src/assets/images/Logo5.svg';
 import InstagramLogo from '../src/assets/images/instagramLogo.svg';
 import FacebookLogo from '../src/assets/images/facebookLogo.svg';
 import TwitterLogo from '../src/assets/images/twitterLogo.svg';
+import SvgMap from './components/SvgMap/SvgMap';
+import MemoMap1 from './components/Map1';
 
 
 const App = () => {
@@ -91,7 +93,9 @@ const App = () => {
                         </div>
                     </div>
                     <div className="contact__img-box">
-                        <img src={Map} alt="map" />
+                        {/* <img src={Map} alt="map" /> */}
+                        {/* <SvgMap /> */}
+                        <MemoMap1 />
                     </div>
                 </div>
             </section>
